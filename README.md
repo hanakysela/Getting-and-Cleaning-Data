@@ -15,17 +15,19 @@ You should create one R script called run_analysis.R that does the following.
 
 
 ### Depencendencies:
-- ```reshape2``` library   
+- ```reshape2``` 
+- ```data.table```   
+
 The R script installs the package itself when needed.
 
 
 ### This repo contains:  
 ##### data that will be used by the R script to do the required operations:
 
-- train data in a train  folder
-- test data in a test folder
-- activity_labels.txt
-- features.txt
+- train data in a ```train```  folder
+- test data in a ```test``` folder
+- ```activity_labels.txt```
+- ```features.txt```
 
 ##### information about the process and the outcome
 
@@ -36,6 +38,9 @@ The R script installs the package itself when needed.
 
 -------------------------------------
 ###What does the scrip do?
+
+Every step the ```run_analysis.R``` script does is commented already in the code.
+
 1. Reads all the data and merges the training and the test sets to create one data set using ```read.table``` and ```rbind``` and ```cbind```.
 Then it renames the columns properly
 
@@ -51,4 +56,4 @@ Using ```gsub``` command, I have changed:
 	- -mean to Mean
 	- -std to StdDev
 
-5. Melts the data by Subject's ID and the Activity in order to get the average value for each varible "separated" by Subject's ID and the activity they were performing.  Finally it writes the data to a tidy dataset called final.txt.
+5. Melts the data by Subject's ID and the Activity in order to get the average value for each varible "separated" by Subject's ID and the activity they were performing.  Finally it writes the data to a tidy dataset called ```final.txt```.
