@@ -24,7 +24,7 @@ The dataset includes files while not all of them were necessary for the Project.
 For the purpose of this project, the test and train data were merged and cleaned up.
 
 
-## Operation with the Data
+## Operations with the Data
 The  ```run_analysis.R``` script performs the following operations on the data:
 
 1. Merges the training and the test sets to create one data set.
