@@ -31,9 +31,9 @@ The R script installs the package itself when needed.
 
 ##### information about the process and the outcome
 
-- final.txt the outcome of the process
-- readme.md short info about everything
-- CodeBook.md description of the data used for this project
+- ```final.txt``` the outcome of the process
+- ```readme.md``` short info about everything
+- ```CodeBook.md``` description of the data used for this project
 
 
 -------------------------------------
